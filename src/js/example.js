@@ -1,2 +1,4 @@
 // example.js
-Deno.core.print("Hello runjs!");
+const e = "aaa";
+console.log("Hello", "runjs!", e);
+console.error("Boom!");
